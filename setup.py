@@ -1,23 +1,24 @@
 from distutils.core import setup
 setup(
-    name='pyst2st',         # How you named your package folder (MyLib)
-    packages=['pyst2st'],   # Chose the same as "name"
-    version='0.6',      # Start with a small number and increase it with every change you make
+    name='PyMongoCloner',         # How you named your package folder (MyLib)
+    packages=['PyMongoCloner'],   # Chose the same as "name"
+    version='0.01',      # Start with a small number and increase it with every change you make
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
-    description='Dynamic Student Story Generator',
+    description='MongoDB Collection Cloning Package',
     author='Doulat',                   # Type in your name
     author_email='ahmad.doulat@gmail.com',      # Type in your E-Mail
     # Provide either the link to your github or to your website
-    url='https://github.com/ahmaddoulat/pystorygen',
+    url='https://github.com/ahmaddoulat/PyMongoCloner',
     # I explain this later on
-    download_url='https://github.com/ahmaddoulat/pystorygen/archive/v_0.1.tar.gz',
+    download_url='https://github.com/ahmaddoulat/PyMongoCloner.git',
     # Keywords that define your package best
-    keywords=['student', 'nlg', 'story'],
+    keywords=['database', 'mongodb', 'clone', 'collection'],
     install_requires=[            # I get to this in a second
-        'inflect',
-        'pandas',
+        'pymongo',
+        'pymongo'
+        'sshtunnel',
     ],
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
