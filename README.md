@@ -1,5 +1,7 @@
-# pystorygen is an automatic student story generator. It can generate three different story structures, as follows:
+# PyMongoCloner is python package to clone MongoDB collections
 
-- default_story
-- temporal_structure
-- outcome_structure
+It is capable of cloning:
+- local to local
+- local to remote 
+- remote to local 
+- remote to remote
